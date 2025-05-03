@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -7,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { ChevronRight, Edit, ArrowRight, Trash } from 'lucide-react';
 import StepCard from '@/components/StepCard';
 import { Model } from '@/types/models';
+import { Plus } from "lucide-react";
 
 // Sample data - would be fetched from API in real implementation
 const sampleModels: Record<string, Model> = {
